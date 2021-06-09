@@ -9,6 +9,7 @@ import ShopCar from './components/tabbar/shopcar.vue'
 // 3. 创建路由对象
 var router = new VueRouter({
   routes: [
+    {path: '/', component: Home },
     {path: '/home', component: Home },
     {path: '/member', component: Member},
     {path: '/search', component: Search},
