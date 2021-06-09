@@ -57,14 +57,10 @@ import { Toast } from 'mint-ui'
 // }
 </script>
 
-<style >
+<style lang="scss" scoped>
 .mint-swipe{
     height: 200px;
-
-
- 
-}
-.mint-swipe-item:nth-child(1)
+    .mint-swipe-item:nth-child(1)
     {
         background-color: blue;
     } 
@@ -80,6 +76,11 @@ import { Toast } from 'mint-ui'
         width: 100%;
         height: 100%;
     } 
+
+ 
+}
+
+
 .mui-grid-view.mui-grid-9 .mui-table-view-cell{
     background-color: #fff;
     border: none;
